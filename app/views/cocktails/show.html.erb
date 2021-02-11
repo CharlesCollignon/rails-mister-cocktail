@@ -1,0 +1,10 @@
+<div class="d-flex flex-column container">
+<h1 class="text-center">Infos du cocktail <%= @cocktail.name %></h1>
+
+<div class="text-center">
+  <p><%= @cocktail.name %></p>
+</div>
+
+<%= link_to 'Dose', new_cocktail_dose_path(@cocktail), class: "btn btn-primary"%>
+<%= link_to 'Home', cocktails_path, class: "btn btn-primary"%>
+</div>
