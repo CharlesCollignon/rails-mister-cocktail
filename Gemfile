@@ -21,6 +21,7 @@ gem 'jbuilder', '~> 2.7'
 # gem 'redis', '~> 4.0'
 # Use Active Model has_secure_password
 gem 'dotenv-rails', groups: [:development, :test]
+gem 'cloudinary', '~> 1.16.0'
 # gem 'bcrypt', '~> 3.1.7'
 gem 'autoprefixer-rails'
 gem 'font-awesome-sass', '~> 5.12.0'
